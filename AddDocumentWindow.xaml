@@ -1,0 +1,14 @@
+﻿<Window x:Class="Copybook.AddDocumentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Copybook"
+        mc:Ignorable="d"
+        Title="AddDocumentWindow" Height="152.256" BorderThickness="2" Width="300" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Background="{StaticResource b_def_MainColor}" Closing="Window_Closing" Closed="Window_Closed">
+    <Grid>
+        <Button Margin="149,108,0,0" Click="Button_Click_1">OK</Button>
+        <Button Margin="0,108,151,0" Click="Button_Click">Отмена</Button>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Foreground="White" Background="{StaticResource b_def_DarkColor}" Margin="10,10,0,0" TextWrapping="Wrap" Text="Имя документа" VerticalAlignment="Top" Width="272" Height="24"/>
+    </Grid>
+</Window>

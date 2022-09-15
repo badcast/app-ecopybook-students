@@ -1,0 +1,28 @@
+<design>
+	<source src="application_resource/pictures.png"/>
+	<info name="Design for Electronic library" author="Farbox" />
+	<form borderColorRGB="255,255,255"/> 
+	<!--<cursor src="Bitmaps/Cursor.cur"/>-->
+	<rects>
+		<mmklogo rect="0, 175, 324, 325"/>
+		<eagle rect="0, 60, 113, 114"/>
+		<ornament rect="114, 0, 197, 60" />
+	</rects>
+	<TripleButtons>
+		<triple key="appHide" rect="500, 240, 60, 60" direction="Right"/>
+		<triple key="appFull" rect="500, 180, 60, 60" direction="Right"/>
+		<triple key="appClose" rect="500, 360, 60, 60" direction="Right"/>
+		<triple key="littleBlack" rect="680, 180, 60, 60" direction="Right"/>
+		<triple key="littleRed" rect="680, 240, 60, 60" direction="Right"/>
+		<triple key="leftArrow" rect="500, 300, 60, 60" direction="Right"/>
+		<triple key="rightArrow" rect="500, 420, 60, 60" direction="Right"/>
+		<triple key="viewType" rect="680, 0, 60, 60" direction="Right"/> 
+		<triple key="editType" rect="680, 60, 60, 60" direction="Right"/>
+		<triple key="addDocument" rect="680, 120, 60, 60" direction="Right"/>
+		<triple key="saveType" rect="500, 0, 60, 60" direction="Right"/>
+		<triple key="recycleBin" rect="680, 300, 60, 60" direction="Right"/>
+		<triple key="printBut" rect="500, 60, 60, 60" direction="Right"/>
+		<triple key="saveToBut" rect="680, 360, 60, 60" direction="Right"/>
+		<triple key="nextBut" rect="401, 0, 90, 240" direction="Down"/>
+	</TripleButtons>
+</design>

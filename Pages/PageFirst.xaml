@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="Copybook.PageFirst"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Copybook"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="1024">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="192"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="Top" Background="{StaticResource b_def_MainColor}">
+            <local:PictureTile Tag="ornament" TileMode="FlipX" />
+            <local:PictureTile Tag="mmklogo" Height="150" VerticalAlignment="Top" HorizontalAlignment="Left" Width="150" Margin="20,20,0,0"/>
+            <local:PictureTile Tag="eagle" Margin="0,20,20,0" Height="150" VerticalAlignment="Top" HorizontalAlignment="Right" Width="150" Grid.Row="1"/>
+            <Label Foreground="White" FontSize="30" Content="    A.ASQAROV ATYNDAGY &#xA;MERKI KOPSALALY KOLLEDJI" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="207,0,202,0" Height="192" VerticalAlignment="Top" Grid.Row="1"/>
+        </Grid>
+        <Grid x:Name="Cnt" Background="{StaticResource b_def_DarkColor}" Margin="0,0,0,0" Grid.Row="1">
+            <Label x:Name="usrName" Margin="0,0,150,0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" 
+                   Foreground="{StaticResource b_def_YellowLife}" FontSize="40" FontFamily="Times New Roman" Content="{}{Имя пользователя}" Grid.RowSpan="2"/>
+            <local:TripleButton Tag="nextBut" Width="145" HorizontalAlignment="Right" Click="TripleButton_Click"/>
+        </Grid>
+    </Grid>
+</UserControl>

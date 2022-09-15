@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<headers>
+	<header name="_header1" title="Aqparattyq resýrstar jáne eseptegish jeliler"
+	title2="Информационные ресурсы и вычислительные сети">
+	</header>
+			<header name="_header2" title="Aqparatty qorǵaý jáne aqparattyq qaýipsizdik"
+	title2="Защита информации и информационная безопасность">
+	</header>
+			<header name="_header3" title="Avtomattandyrylǵan aqparattyq júıeler"
+	title2="Автоматизированные информационные системы">
+	</header>
+			<header name="_header4" title="Avtomattandyrylǵan aqparattyq júıelerdi baǵdarlamalyq qamtamasyzdandyrý"
+	title2="Программное обеспечение  автоматизированных  информационных  систем">
+	</header>
+	<header name="_header5" title="Baǵdarlamalaý jáne algorıtm negizderi"
+	title2="Основы алгоритмизации и программирования">
+	</header>
+			<header name="_header6" title="Óndiristik jáne ekonomıkalyq úrdisin modeldeý"
+	title2="Инструментальные средства визуальной коммуниации и прикладного дизайна">
+	</header>
+				<header name="_header7" title="Óndiristik jáne ekonomıkalyq úrdisin modeldeý"
+	title2="Моделирование производственных и экономических процессов">
+	</header>
+				<header name="_header8" title="Aqparattyq júıelerdi ákimshileý"
+	title2="Администрирование информационных систем">
+	</header>
+				<header name="_header9" title="Mýltımedıia tehnologıiasy"
+	title2="Мультимедиа технология">
+	</header>
+				<header name="_header10" title="Aqparattyq júıelerdegi málimetter bazasy"
+	title2="База данных в информационных системах">
+	</header>
+				<header name="_header11" title="Elektrotehnıka jáne elektronıka"
+	title2="Электротехника и электроника">
+	</header>
+				<header name="_header12" title="Kompiýterlik geometrıia jáne grafıka"
+	title2="Компьютерная геометрия и графика">
+	</header>
+	
+</headers>

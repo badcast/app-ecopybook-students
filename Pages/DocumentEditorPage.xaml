@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="Copybook.DocumentEditorPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Copybook"
+             mc:Ignorable="d" 
+             d:DesignHeight="768" d:DesignWidth="1024">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="128"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="TopInfo" Background="{StaticResource b_def_DarkColor}">
+            <Label x:Name="title1" Foreground="{StaticResource b_def_White}" FontFamily="Times New Roman" FontSize="20" Content="Title1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="59" VerticalAlignment="Top" Margin="94,0"/>
+            <Label x:Name="title2" Foreground="{StaticResource b_def_White}" FontFamily="Times New Roman" FontSize="20" Content="Title2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="64" VerticalAlignment="Top" Margin="94,64,94,0"/>
+            <local:TripleButton x:Name="_addDocument" Tag="addDocument" Click="_addDocument_Click" HorizontalAlignment="Right" Width="58" Height="58" VerticalAlignment="Top" Margin="0,36,36,0"/>
+            <local:TripleButton Tag="leftArrow" Click="TripleButton_Click" HorizontalAlignment="Left" Width="58" Height="58" VerticalAlignment="Top" Margin="36,36,0,0"/>
+        </Grid>
+        <Grid Background="{StaticResource b_def_DarkColorFF}" Grid.Row="1">
+            <local:DataGridView x:Name="docGridView" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+
+            </local:DataGridView>
+        </Grid>
+    </Grid>
+
+</UserControl>
